@@ -1,46 +1,46 @@
-# 🗺️ WebGIS Peta Kalimantan
+# 🗺️ WebGIS Kalimantan Map
 
-Proyek WebGIS interaktif yang menyajikan peta wilayah, batas administratif provinsi, dan persebaran kota/penduduk di Pulau Kalimantan. Peta ini dibuat dan diekspor menggunakan **QGIS** melalui plugin **qgis2web** dengan pustaka **Leaflet**.
+An interactive WebGIS project showcasing regional boundaries, provincial administrative borders, and city/population distribution across the island of Kalimantan (Borneo), Indonesia. This map was created and exported using **QGIS** via the **qgis2web** plugin with the **Leaflet** library.
 
 ---
 
-## 🌐 Akses Website (Live Demo)
-Aplikasi WebGIS ini dapat diakses secara langsung secara online melalui tautan berikut:  
+## 🌐 Live Website Demo
+This WebGIS application is accessible online via the following link:  
 🔗 **[https://billiampalad.github.io/Peta-Kalimantan/](https://billiampalad.github.io/Peta-Kalimantan/)**
 
 ---
 
-## 📌 Informasi Proyek
-- **Mata Kuliah** : Sistem Informasi Geografis
-- **Projek**       : Layouting & WebGIS
-- **Penyusun**    : Clynten Billiam Palad
+## 📌 Project Information
+- **Course**  : Geographic Information Systems (GIS)
+- **Project** : Layouting & WebGIS
+- **Author**  : Clynten Billiam Palad
 
 ---
 
-## 🗂️ Fitur & Layer Peta
-1. **Peta Dasar (Basemap)**:
-   - Shaded Relief Natural Earth (`NE1_50M_SR_W`)
-2. **Layer Administrasi**:
-   - Batas wilayah provinsi di Kalimantan (`ne_10m_admin_1_states_provinces`)
-3. **Layer Persebaran Penduduk & Kota**:
-   - Titik-titik kota di Pulau Kalimantan (`ne_10m_populated_places`) dengan klasifikasi ukuran populasi (Banjarmasin, Pontianak, Samarinda, Balikpapan, Palangkaraya, Tarakan, Bontang, Singkawang, Sampit, Martapura, dll.)
-4. **Alat Interaktif**:
-   - *Popup Informasi*: Klik atau arahkan kursor ke fitur untuk melihat data atribut detail.
-   - *Pencarian Lokasi (Photon Geocoder)*: Pencarian nama lokasi secara cepat.
-   - *Pengukuran (Leaflet Measure)*: Pengukuran jarak dan luas area langsung pada peta.
-   - *Kontrol Layer*: Mengaktifkan/menonaktifkan layer sesuai kebutuhan.
+## 🗂️ Map Features & Layers
+1. **Basemap**:
+   - Natural Earth Shaded Relief (`NE1_50M_SR_W`)
+2. **Administrative Boundary Layer**:
+   - Provincial boundaries across Kalimantan (`ne_10m_admin_1_states_provinces`)
+3. **Populated Places & Cities Layer**:
+   - Major cities in Kalimantan (`ne_10m_populated_places`) categorized by population size (Banjarmasin, Pontianak, Samarinda, Balikpapan, Palangkaraya, Tarakan, Bontang, Singkawang, Sampit, Martapura, etc.)
+4. **Interactive Tools**:
+   - *Information Popups*: Click or hover over features to view detailed attribute data.
+   - *Location Search (Photon Geocoder)*: Quickly search for specific place names.
+   - *Measurement Tool (Leaflet Measure)*: Measure distances and calculate areas directly on the map.
+   - *Layer Control*: Toggle visibility of specific map layers as needed.
 
 ---
 
-## 📁 Sumber Data
+## 📁 Data Sources
 - **Natural Earth Data**:
   - 1:10m Cultural Vectors (Admin 1 – States, Provinces & Populated Places)
   - 1:50m Raster Data (Natural Earth I with Shaded Relief and Water)
 
 ---
 
-## 💻 Cara Menjalankan Secara Lokal (Offline)
-Ekspor ini bersifat *standalone* (mandiri):
-1. Buka folder proyek ekspor atau clone repositori ini ke komputer Anda.
-2. Klik dua kali pada file **`index.html`** untuk langsung membuka peta di peramban web (Google Chrome, Firefox, Edge, dll.).
-3. Tidak memerlukan web server tambahan untuk pengujian lokal.
+## 💻 Running Locally (Offline)
+This export is completely standalone:
+1. Open this project directory or clone the repository to your computer.
+2. Double-click **`index.html`** to open and run the map directly in your web browser (Chrome, Firefox, Edge, dll.).
+3. No web server or additional software is required for local viewing.
